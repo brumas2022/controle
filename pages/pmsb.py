@@ -5,6 +5,8 @@ st.write("---")
 st.markdown("Lider : Marcos Brumatti")
 st.write("---")
 st.markdown("Equipe:")
+st.sidebar.button("Lider")
 st.sidebar.button("Equipe")
 st.sidebar.button("Reunioes")
+st.sidebar.button("Objetivos")
 
