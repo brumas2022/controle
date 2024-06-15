@@ -9,7 +9,7 @@ lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
 reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
-if lider
+if lider:
    st.image("flocos.jpg")
-if equipe
+if equipe:
    st.image("bob.jpb")
