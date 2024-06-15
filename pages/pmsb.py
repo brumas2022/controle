@@ -5,8 +5,11 @@ st.write("---")
 st.markdown("Lider : Marcos Brumatti")
 st.write("---")
 st.markdown("Equipe:")
-st.sidebar.button("Lider")
-st.sidebar.button("Equipe")
-st.sidebar.button("Reunioes")
-st.sidebar.button("Objetivos")
-
+lider=st.sidebar.button("Lider")
+equipe=st.sidebar.button("Equipe")
+reunioes=st.sidebar.button("Reunioes")
+objetivos=st.sidebar.button("Objetivos")
+if lider
+   st.image("flocos.jpg")
+if equipe
+   st.image("bob.jpb")
