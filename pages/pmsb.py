@@ -6,7 +6,7 @@ reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
 if lider:
    st.markdown("Marcos Brumatti")
-   st.image("flocos.jpg")
+   st.image("20240416_165809.jpg")
 if equipe:
    st.markdown("Equipe pmsb")
    st.image("equipe_png.png")
