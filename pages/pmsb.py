@@ -9,4 +9,4 @@ if lider:
    st.image("flocos.jpg")
 if equipe:
    st.markdown("Equipe")
-   st.image("bob.jpg")
+   st.image("equipe_png.png")
