@@ -8,5 +8,5 @@ if lider:
    st.markdown("Marcos Brumatti")
    st.image("flocos.jpg")
 if equipe:
-   st.markdown("Equipe")
+   st.markdown("Equipe pmsb")
    st.image("equipe_png.png")
