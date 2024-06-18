@@ -10,3 +10,7 @@ if lider:
 if equipe:
    st.markdown("Equipe")
    st.image("equipe_png.png")
+if reunioes:
+   st.markdown("Aqui teremos as reunioes realizadas")
+if objetivos:
+   st.markdown("Este espaço pode ser ocupado com diversas coisas")
