@@ -8,7 +8,7 @@ if lider:
    st.markdown("Simone Cavalcanti / Daniel Lobo")
    col = st.columns((1,1,1))
    col[0].image("simone.PNG")
-   col[1].image("simone.PNG")
+   col[1].image("daniel.PNG")
 if equipe:
    st.markdown("Equipe")
    st.image("equipe_png.png")
