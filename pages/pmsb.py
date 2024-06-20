@@ -7,7 +7,7 @@ objetivos=st.sidebar.button("Objetivos")
 calendario=st.sidebar.button("Calendario")
 if lider:
    st.markdown("Marcos Brumatti")
-   col=st.columms((1,1,1))
+   col=st.columns((1,1,1))
    col.image("20240416_165809.jpg")
 if equipe:
    st.markdown("Equipe pmsb")
