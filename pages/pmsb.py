@@ -4,6 +4,7 @@ lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
 reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
+calendario=st.sidebar.button("Calendario")
 if lider:
    st.markdown("Marcos Brumatti")
    st.image("20240416_165809.jpg")
@@ -14,3 +15,7 @@ if reunioes:
    st.markdown("Aqui teremos as reunioes realizadas")
 if objetivos:
    st.markdown("Este espaço pode ser ocupado com diversas coisas")
+if calendario:
+    from streamlit_calendar import calendar
+    calendario=calendar()
+    st.write(calendario)
