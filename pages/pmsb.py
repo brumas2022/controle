@@ -8,7 +8,7 @@ calendario=st.sidebar.button("Calendario")
 if lider:
    st.markdown("Marcos Brumatti")
    col=st.columns((1,1,1))
-   col.image("20240416_165809.jpg")
+   col[0].image("20240416_165809.jpg")
 if equipe:
    st.markdown("Equipe pmsb")
    st.image("equipe_png.png")
