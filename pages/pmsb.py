@@ -6,7 +6,7 @@ reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
 calendario=st.sidebar.button("Calendario")
 if lider:
-   st.markdown("Marcos Brumatti")
+   st.header(":green[Marcos Brumatti]", divider="orange")
    col=st.columns((1,1,1))
    col[0].image("20240416_165809.jpg")
 if equipe:
