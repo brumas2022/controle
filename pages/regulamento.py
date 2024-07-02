@@ -5,7 +5,7 @@ equipe=st.sidebar.button("Equipe")
 reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
 if lider:
-   st.markdown("Simone Cavalcanti / Daniel Lobo")
+   st.header(":green[Simone Cavalcanti / Daniel Lobo]", divider="orange")
    col = st.columns((1,1,1))
    col[0].image("simone.PNG")
    col[1].image("daniel.PNG")
