@@ -5,6 +5,7 @@ equipe=st.sidebar.button("Equipe")
 reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
 calendario=st.sidebar.button("Calendario")
+conteudo=st.sidebar.button("Conteudo")
 if lider:
    st.header(":green[Marcos Brumatti]", divider="orange")
    col=st.columns((1,1,1))
@@ -20,3 +21,7 @@ if calendario:
     from streamlit_calendar import calendar
     calendario=calendar()
     st.write(calendario)
+if conteudo:
+   import tabula
+   lista_tabelas=tabula.read_pdf("https://drive.google.com/file/d/1yDofmyFtOFxvmvhrWFx-ql-Odxt5Mdho/view", pages="824")
+   st.write(len(lista_tabelas))
