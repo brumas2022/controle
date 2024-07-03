@@ -1,5 +1,6 @@
 import streamlit as st
 import tabula
+import pandas as pd
 from tabula.io import read_pdf
 st.set_page_config("PMSB", layout="wide")
 lider=st.sidebar.button("Lider")
