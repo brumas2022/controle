@@ -1,4 +1,6 @@
 import streamlit as st
+import tabula
+from tabula.io import read_pdf
 st.set_page_config("PMSB", layout="wide")
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
@@ -22,9 +24,7 @@ if calendario:
     calendario=calendar()
     st.write(calendario)
 if conteudo:
-   st.markdown("TAbula nova tentativa")
-   import tabula
-   from tabula.io import read_pdf
+   st.markdown("Tabula ainda nao deu certo")
    lista_tabelas=tabula.read_pdf("_Cartilha BNCC 2021.pdf", pages="all")
    st.write(len(lista_tabelas))
    
