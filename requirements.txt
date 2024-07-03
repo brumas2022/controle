@@ -7,4 +7,4 @@ sqlalchemy==2.0.28
 pandas==2.2.1
 supabase==2.4.1
 streamlit-calendar==1.2.0
-#tabula==1.5.0
+tabula==2.9.3
