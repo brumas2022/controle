@@ -24,6 +24,6 @@ if calendario:
 if conteudo:
    st.markdown("TAbula nova tentativa")
    import tabula
-   lista_tabelas=tabula.read_pdf("pages/_Cartilha BNCC 2021.pdf", pages="all")
+   lista_tabelas=tabula.read_pdf("_Cartilha BNCC 2021.pdf", pages="all")
    st.write(len(lista_tabelas))
    
