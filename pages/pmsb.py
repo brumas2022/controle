@@ -26,6 +26,6 @@ if calendario:
     st.write(calendario)
 if conteudo:
    st.markdown("Tabula ainda nao deu certo")
-   lista_tabelas=tabula.read_pdf("_Cartilha BNCC 2021.pdf", pages="all")
+   lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
    st.write(len(lista_tabelas))
    
