@@ -23,5 +23,5 @@ if calendario:
     st.write(calendario)
 if conteudo:
    import tabula
-   lista_tabelas=tabula.read_pdf("https://drive.google.com/file/d/1yDofmyFtOFxvmvhrWFx-ql-Odxt5Mdho/view", pages="all")
+   lista_tabelas=tabula.read_pdf("pages/_Cartilha BNCC 2021.pdf", pages="39")
    st.write(len(lista_tabelas))
