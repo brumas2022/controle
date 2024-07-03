@@ -22,6 +22,7 @@ if calendario:
     calendario=calendar()
     st.write(calendario)
 if conteudo:
-   import tabula
-   lista_tabelas=tabula.read_pdf("pages/_Cartilha BNCC 2021.pdf", pages="39")
-   st.write(len(lista_tabelas))
+   #import tabula
+   #lista_tabelas=tabula.read_pdf("pages/_Cartilha BNCC 2021.pdf", pages="39")
+   #st.write(len(lista_tabelas))
+   st.markdown("TAbula nao deu certo")
