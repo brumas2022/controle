@@ -24,6 +24,7 @@ if calendario:
 if conteudo:
    st.markdown("TAbula nova tentativa")
    import tabula
+   from tabula.io import read_pdf
    lista_tabelas=tabula.read_pdf("_Cartilha BNCC 2021.pdf", pages="all")
    st.write(len(lista_tabelas))
    
