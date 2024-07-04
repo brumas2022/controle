@@ -8,3 +8,4 @@ pandas==2.2.1
 supabase==2.4.1
 streamlit-calendar==1.2.0
 tabula-py==2.9.3
+pyv8
