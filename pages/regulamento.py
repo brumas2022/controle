@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 st.set_page_config("Regulamento", layout="wide")
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
