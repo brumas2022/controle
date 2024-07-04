@@ -9,4 +9,5 @@ supabase==2.4.1
 streamlit-calendar==1.2.0
 tabula-py==2.9.3
 PyExecJS
+tabula_java
 
