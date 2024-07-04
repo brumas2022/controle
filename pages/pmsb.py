@@ -1,6 +1,6 @@
 import streamlit as st
 import tabula
-import execjs
+#import execjs
 import pandas as pd
 from tabula.io import read_pdf
 st.set_page_config("PMSB", layout="wide")
