@@ -18,6 +18,7 @@ reunioes=st.sidebar.button("Reunioes")
 objetivos=st.sidebar.button("Objetivos")
 calendario=st.sidebar.button("Calendario")
 conteudo=st.sidebar.button("Conteudo")
+tabelas=st.sidebar.button("Tabelas")
 if lider:
    st.header(":green[Marcos Brumatti]", divider="orange")
    col=st.columns((1,1,1))
@@ -37,6 +38,9 @@ if conteudo:
    st.markdown("Tabula ainda nao deu certo")
    lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
    st.write(len(lista_tabelas))
-if lider==False and equipe==False and reunioes==False and objetivos==False and calendario==False and conteudo==False:
+if tabelas:
+    webbowser.open("relatorio_p809.pdf")
+    
+if lider==False and equipe==False and reunioes==False and objetivos==False and calendario==False and conteudo==False and tabelas==False:
     plano()
    
