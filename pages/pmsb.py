@@ -39,8 +39,9 @@ if conteudo:
    lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
    st.write(len(lista_tabelas))
 if tabelas:
-   st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801")
-   st.write("5.2.1. Abastecimento de Água ...........................................................................[807](https://drive.google.com/file/d/1v7ASrjNDC3J0ySvLKZXeqAOUZi63XoyX/view)")
+   st.markdown(relatorio_p816.pdf) 
+   #st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801")
+   #st.write("5.2.1. Abastecimento de Água ...........................................................................[807](https://drive.google.com/file/d/1v7ASrjNDC3J0ySvLKZXeqAOUZi63XoyX/view)")
             
             
     
