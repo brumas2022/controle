@@ -50,7 +50,7 @@ if tabelas:
    st.write("Tabela 5-2 [item 13 e 14](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p814.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODE0LnBkZiIsImlhdCI6MTcyMDIwNzgxOSwiZXhwIjoxNzIwODEyNjE5fQ.r4pJ4V_zI8bSbZKZulEMzmjrZ6hEWJCDBnxkERdgC7E&t=2024-07-05T19%3A30%3A19.842Z)")
    st.write("Tabela 5-2 [item 15 a 17](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p815.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODE1LnBkZiIsImlhdCI6MTcyMDIwNzg0MCwiZXhwIjoxNzIwODEyNjQwfQ.LK2l60AKEZnu6yG1ZgHHp8aZLVbc0N54X5qI6KHI8dc&t=2024-07-05T19%3A30%3A41.020Z)")
    st.write("Tabela 5-2 [item 18 a 20](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p816.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODE2LnBkZiIsImlhdCI6MTcyMDIwNzg2NiwiZXhwIjoxNzIwODEyNjY2fQ.FjI9jBuBYH7oxeyhefTixmVWU7nKPIrSZMY4cX8T3pE&t=2024-07-05T19%3A31%3A06.866Z)")
-            
-if lider==False and equipe==False and reunioes==False and objetivos==False and calendario==False and conteudo==False and tabelas==False:
+if lider==False and equioe==False:            
+#if lider==False and equipe==False and reunioes==False and objetivos==False and calendario==False and conteudo==False and tabelas==False:
     plano()
    
