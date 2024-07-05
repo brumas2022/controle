@@ -20,9 +20,9 @@ if lider:
    col=st.columns((1,1,1))
    col[0].image("20240416_165809.jpg")
 if equipe:
-   st.markdown("Equipe PMSB")
+   st.header(":green[Equipe PMSB]", divider="orange")
    col = st.columns((1,1,1,1))
-   col[0].write("Abastecimento de água")
+   col[0].write(":green[Abastecimento de água]")
    col[1].write("Esgotamento sanitário")
    col[2].write("Residuos sólidos")
    col[3].write("Drenagem urbana") 
