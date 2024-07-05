@@ -11,7 +11,7 @@ if lider:
    col = st.columns((1,1,1))
    col[0].image("conceicao.PNG")
 if equipe:
-   t.header(":green[Equipe Procedimentos]", divider="orange")
+   st.header(":green[Equipe Procedimentos]", divider="orange")
    col = st.columns((1,1,1))
    col[0].write(":green[Sistema de Abastecimento de Água - Operação]")
    col[1].write(":blue[Sistema de Esgotamento sanitário - Operação]")
