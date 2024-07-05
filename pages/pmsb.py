@@ -14,10 +14,10 @@ def plano():
 
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
-reunioes=st.sidebar.button("Reunioes")
-objetivos=st.sidebar.button("Objetivos")
-calendario=st.sidebar.button("Calendario")
-conteudo=st.sidebar.button("Conteudo")
+#reunioes=st.sidebar.button("Reunioes")
+#objetivos=st.sidebar.button("Objetivos")
+#calendario=st.sidebar.button("Calendario")
+#conteudo=st.sidebar.button("Conteudo")
 tabelas=st.sidebar.button("Tabelas")
 if lider:
    st.header(":green[Marcos Brumatti]", divider="orange")
