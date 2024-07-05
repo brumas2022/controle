@@ -4,6 +4,13 @@ import tabula
 import pandas as pd
 #from tabula.io import read_pdf
 st.set_page_config("PMSB", layout="wide")
+def plano()
+    st.header(":green[Plano Municiapal de Saneamento Basico -  SANEAR]", divider="orange")
+    st.write("Aqui você terá informações sobre o Plano Municipal de Saneamento Básico do município de Rondonópolis-MT")
+    st.page_link("https://drive.google.com/file/d/1yDofmyFtOFxvmvhrWFx-ql-Odxt5Mdho/view", label="Clique aqui para acessar PMSB")
+    st.image("plano.png")    
+    
+
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
 reunioes=st.sidebar.button("Reunioes")
