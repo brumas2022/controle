@@ -39,7 +39,7 @@ if conteudo:
    lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
    st.write(len(lista_tabelas))
 if tabelas:
-   st.write("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801
+   st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801
             5.1. PROGRAMAS DE AÇÕES IMEDIATAS DO MUNICÍPIO............................801
             5.2. PROGRAMAS DE AÇÕES DO PMSB.........................................................807
             5.2.1. Abastecimento de Água ...........................................................................807
