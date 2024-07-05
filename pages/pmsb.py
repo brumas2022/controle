@@ -39,9 +39,9 @@ if conteudo:
    lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
    st.write(len(lista_tabelas))
 if tabelas:
-   st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801 \n
-                5.2.1. Abastecimento de Água ...........................................................................807
-               ")
+   st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801")
+   st.markdown("5.2.1. Abastecimento de Água ...........................................................................link[807]")
+            
             
     
 if lider==False and equipe==False and reunioes==False and objetivos==False and calendario==False and conteudo==False and tabelas==False:
