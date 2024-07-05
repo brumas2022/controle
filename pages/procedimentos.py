@@ -11,8 +11,26 @@ if lider:
    col = st.columns((1,1,1))
    col[0].image("conceicao.PNG")
 if equipe:
-   st.markdown("Equipe")
-   st.image("equipe_png.png")
+   t.header(":green[Equipe Procedimentos]", divider="orange")
+   col = st.columns((1,1,1))
+   col[0].write(":green[Sistema de Abastecimento de Água - Operação]")
+   col[1].write(":blue[Sistema de Esgotamento sanitário - Operação]")
+   col[2].write(":red[Sistema Comercial/Frotas/Almoxarifado]")
+   col[0].write("Yara")
+   col[0].write("Érika Carvalho")
+   col[0].write("Jane Sizenandes")
+   col[0].write("Herotsan")
+   col[1].write("Samara")
+   col[1].write("Ellen")
+   col[1].write("Denise Sodré")
+   col[1].write("Neire")
+   col[1].write("Alberto")
+   col[3].write("Simone Cavalcante")
+   col[3].write("Carlos")
+   col[3].write("Thiago")
+   col[3].write("Salete")
+   col[3].write("Alisson")
+   
 if reunioes:
    st.markdown("Aqui teremos as reunioes realizadas")
 if objetivos:
