@@ -26,7 +26,7 @@ if equipe:
    col[1].write(":blue[Esgotamento sanitário]")
    col[2].write(":red[Residuos sólidos]")
    col[3].write(":orange[Drenagem urbana]") 
-   col[0].write("Dalton Monteiro")
+   col[0].radio("Dalton Monteiro")
    col[0].write("Érika Carvalho")
    col[0].write("Denise Sodré")
    col[0].write("Gláucia Valadão")
