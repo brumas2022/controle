@@ -37,5 +37,6 @@ if conteudo:
    st.markdown("Tabula ainda nao deu certo")
    lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
    st.write(len(lista_tabelas))
-plano()
+elif
+    plano()
    
