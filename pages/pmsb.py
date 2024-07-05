@@ -21,7 +21,11 @@ if lider:
    col[0].image("20240416_165809.jpg")
 if equipe:
    st.markdown("Equipe PMSB")
-   st.image("equipe_png.png")
+   col = st.columns((1,1,1,1))
+   col[0].write("Abastecimento de água")
+   col[1].write("Esgotamento sanitário")
+   col[2].write("Residuos sólidos")
+   col[3].write("Drenagem urbana") 
 
 if tabelas:
    #st.markdown(relatorio_p816.pdf) 
