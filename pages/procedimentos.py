@@ -25,11 +25,11 @@ if equipe:
    col[1].write("Denise Sodré")
    col[1].write("Neire")
    col[1].write("Alberto")
-   col[3].write("Simone Cavalcante")
-   col[3].write("Carlos")
-   col[3].write("Thiago")
-   col[3].write("Salete")
-   col[3].write("Alisson")
+   col[2].write("Simone Cavalcante")
+   col[2].write("Carlos")
+   col[2].write("Thiago")
+   col[2].write("Salete")
+   col[2].write("Alisson")
    
 if reunioes:
    st.markdown("Aqui teremos as reunioes realizadas")
