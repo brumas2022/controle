@@ -14,10 +14,6 @@ def plano():
 
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
-#reunioes=st.sidebar.button("Reunioes")
-#objetivos=st.sidebar.button("Objetivos")
-#calendario=st.sidebar.button("Calendario")
-#conteudo=st.sidebar.button("Conteudo")
 tabelas=st.sidebar.button("Tabelas")
 if lider:
    st.header(":green[Marcos Brumatti]", divider="orange")
@@ -26,18 +22,7 @@ if lider:
 if equipe:
    st.markdown("Equipe PMSB")
    st.image("equipe_png.png")
-if reunioes:
-   st.markdown("Aqui teremos as reunioes realizadas")
-if objetivos:
-   st.markdown("Este espaço pode ser ocupado com diversas coisas")
-if calendario:
-    from streamlit_calendar import calendar
-    calendario=calendar()
-    st.write(calendario)
-if conteudo:
-   st.markdown("Tabula ainda nao deu certo")
-   lista_tabelas=tabula.read_pdf("https://www.seplag.mt.gov.br/images/files/BOLETIMDEINDICADORESDEPESSOAL202210022023190437.pdf", pages="all")
-   st.write(len(lista_tabelas))
+
 if tabelas:
    #st.markdown(relatorio_p816.pdf) 
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES .......................................................... 801")
@@ -51,6 +36,5 @@ if tabelas:
    st.write("Tabela 5-2 [item 15 a 17](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p815.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODE1LnBkZiIsImlhdCI6MTcyMDIwNzg0MCwiZXhwIjoxNzIwODEyNjQwfQ.LK2l60AKEZnu6yG1ZgHHp8aZLVbc0N54X5qI6KHI8dc&t=2024-07-05T19%3A30%3A41.020Z)")
    st.write("Tabela 5-2 [item 18 a 20](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p816.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODE2LnBkZiIsImlhdCI6MTcyMDIwNzg2NiwiZXhwIjoxNzIwODEyNjY2fQ.FjI9jBuBYH7oxeyhefTixmVWU7nKPIrSZMY4cX8T3pE&t=2024-07-05T19%3A31%3A06.866Z)")
 if lider==False and equioe==False:            
-#if lider==False and equipe==False and reunioes==False and objetivos==False and calendario==False and conteudo==False and tabelas==False:
-    plano()
+   plano()
    
