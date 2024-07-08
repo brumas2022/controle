@@ -42,7 +42,7 @@ if tabelas:
    
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
    st.write("5.2.1. Abastecimento de Água")
-   col_tab=st.columns((1,1,1,1)) 
+   col_tab=st.columns((1,1,1,1,1)) 
    col_tab[0].write("Tabela 5-2 [item 01](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p809.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODA5LnBkZiIsImlhdCI6MTcyMDIwNjc4MiwiZXhwIjoxNzIwODExNTgyfQ.DFMnAMcxIZfkYskKbAf5NQn2UHCmfVYXm5LajvcGqg8&t=2024-07-05T19%3A13%3A02.773Z)")      
    col_tab[0].write("Tabela 5-2 [item 02 a 04](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p810.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODEwLnBkZiIsImlhdCI6MTcyMDIwNzA5NSwiZXhwIjoxNzIwODExODk1fQ.el2noOaEib7glfyyRixqSuFuFcIujwDj1D_gH40Jh7M&t=2024-07-05T19%3A18%3A15.565Z)")
    col_tab[0].write("Tabela 5-2 [item 05 a 08](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p811.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODExLnBkZiIsImlhdCI6MTcyMDIwNzE2OCwiZXhwIjoxNzIwODExOTY4fQ.7oX0qP5zi-3XNSoplu9wSmSeszDuQ2bUWs6TgcJXo6c&t=2024-07-05T19%3A19%3A28.897Z)") 
@@ -60,6 +60,12 @@ if tabelas:
    col_tab[2].write("Tabela 5-4 [item 4 e 5](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-4/relatorio_p821.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS00L3JlbGF0b3Jpb19wODIxLnBkZiIsImlhdCI6MTcyMDQ2ODkzNiwiZXhwIjoxNzIxMDczNzM2fQ.yhgUVDaLkN7Q2bVBFpp4goQR5XiFk9MbdJuiOv6FLtg&t=2024-07-08T20%3A02%3A16.478Z)")
    col_tab[2].write("Tabela 5-4 [item 6 a 8](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-4/relatorio_p822.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS00L3JlbGF0b3Jpb19wODIyLnBkZiIsImlhdCI6MTcyMDQ2ODk1MSwiZXhwIjoxNzIxMDczNzUxfQ.pbUyu4Z1fxZl62ZheBDwV8DTOkO-H99Ywhowq1As-gs&t=2024-07-08T20%3A02%3A32.016Z)")
    col_tab[2].write("Tabela 5-4 [item 9 e 10](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-4/relatorio_p822.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS00L3JlbGF0b3Jpb19wODIyLnBkZiIsImlhdCI6MTcyMDQ2ODk1MSwiZXhwIjoxNzIxMDczNzUxfQ.pbUyu4Z1fxZl62ZheBDwV8DTOkO-H99Ywhowq1As-gs&t=2024-07-08T20%3A02%3A32.016Z)")                 
+
+   col_tab[3].write("Tabela 5-5 [item 1 e 2](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-5/relatorio_p824.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS01L3JlbGF0b3Jpb19wODI0LnBkZiIsImlhdCI6MTcyMDQ2OTk1MiwiZXhwIjoxNzIxMDc0NzUyfQ.2Gl5UlcniBuT8e3h8kpFetRGbjoBCiLBH8yI3nJanMI&t=2024-07-08T20%3A19%3A12.764Z)") 
+
+   col_tab[4].write("Tabela 5-6 [item 1](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-6/relatorio_p825.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS02L3JlbGF0b3Jpb19wODI1LnBkZiIsImlhdCI6MTcyMDQ2OTk3NCwiZXhwIjoxNzIxMDc0Nzc0fQ.ksxvV8h7bdAQfg6t7MiKwUCfxEJSqfpCw23tvwhXiic&t=2024-07-08T20%3A19%3A35.081Z)")
+
+
 
     
    col_tab[0].write("5.2.2. Esgotamento Sanitário ...827")
