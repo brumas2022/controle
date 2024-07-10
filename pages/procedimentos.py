@@ -32,6 +32,7 @@ if equipe:
    col[2].write("Alisson")
    
 if reunioes:
+   st.write("Gestão Documental")
    st.write("Estação de Tratamento de Efluentes")
 if objetivos:
    st.markdown("Este espaço pode ser ocupado com diversas coisas")
