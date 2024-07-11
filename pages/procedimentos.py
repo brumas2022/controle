@@ -4,7 +4,7 @@ from st_pages import show_pages_from_config, add_page_title
 st.set_page_config("Procedimentos", layout="wide")
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
-reunioes=st.sidebar.button("Reunioes")
+pops=st.sidebar.button("POPs")
 objetivos=st.sidebar.button("Objetivos")
 if lider:
    st.header(":green[Maria da Conceição Gois]", divider="orange")
@@ -31,7 +31,7 @@ if equipe:
    col[2].write("Salete")
    col[2].write("Alisson")
    
-if reunioes:
+if pops:
    st.write("Gestão Documental")
    st.write("Estação de Tratamento de Efluentes")
 if objetivos:
