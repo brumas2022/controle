@@ -90,9 +90,9 @@ if tabelas:
 
     
 
-   col_tab[0].write("5.2.3. Limpeza pública e Manejo de Resíduos Sólidos..842")
+   st.write("5.2.3. Limpeza pública e Manejo de Resíduos Sólidos..842")
 
-   col_tab[0].write("5.2.4. Drenagem Urbana e Manejo de Águas Pluviais ..899")
+   st.write("5.2.4. Drenagem Urbana e Manejo de Águas Pluviais ..899")
  
 
 
