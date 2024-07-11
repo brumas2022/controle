@@ -68,7 +68,7 @@ if tabelas:
 
 
     
-   col_tab[0].write("5.2.2. Esgotamento Sanitário ...827")
+   st.write("5.2.2. Esgotamento Sanitário ...827")
    col_tab[0].write("Tabela 5-8 [item 1 e 2]")
    col_tab[0].write("Tabela 5-8 [item 3 a 5]")
    col_tab[0].write("Tabela 5-8 [item 6 a 8]")
