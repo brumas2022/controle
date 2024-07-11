@@ -32,7 +32,7 @@ if equipe:
    col[2].write("Alisson")
    
 if pops:
-   st.link_button("Gestão Documental")
-   st.link_button("Estação de Tratamento de Efluentes")
+   st.button("Gestão Documental")
+   st.button("Estação de Tratamento de Efluentes")
 if objetivos:
    st.markdown("Este espaço pode ser ocupado com diversas coisas")
