@@ -69,6 +69,25 @@ if tabelas:
 
     
    col_tab[0].write("5.2.2. Esgotamento Sanitário ...827")
+   col_tab[0].write("Tabela 5-8 [item 1 e 2]")
+   col_tab[0].write("Tabela 5-8 [item 3 a 5]")
+   col_tab[0].write("Tabela 5-8 [item 6 a 8]")
+   col_tab[0].write("Tabela 5-8 [item 9 a 12]]")
+    
+   col_tab[1].write("Tabela 5-9 [item 1 e 2]") 
+   col_tab[1].write("Tabela 5-9 [item 3]") 
+
+   col_tab[2].write("Tabela 5-10 [item 1 e 2]")
+
+   col_tab[3].write("Tabela 5-11 [item 1 e 2]")
+   col_tab[3].write("Tabela 5-11 [item 3 e 4]")
+   col_tab[3].write("Tabela 5-11 [item 5 e 6]")
+   col_tab[3].write("Tabela 5-11 [item 7]")
+
+   col_tab[4].write("Tabela 5-12 [item 1 e 2]")
+   col_tab[4].write("Tabela 5-13 [item 1]") 
+
+    
 
    col_tab[0].write("5.2.3. Limpeza pública e Manejo de Resíduos Sólidos..842")
 
