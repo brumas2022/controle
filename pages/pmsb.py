@@ -43,7 +43,7 @@ if tabelas:
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
    st.write("5.2.1. Abastecimento de Água")
    col_tab=st.columns((1,1,1,1,1))
-   col_tab[0].button("Teste", on_click=plano()) 
+   col_tab[0].button("Teste", on_click="https://uol.com.br") 
    col_tab[0].write("Tabela 5-2 [item 01](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p809.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODA5LnBkZiIsImlhdCI6MTcyMDIwNjc4MiwiZXhwIjoxNzIwODExNTgyfQ.DFMnAMcxIZfkYskKbAf5NQn2UHCmfVYXm5LajvcGqg8&t=2024-07-05T19%3A13%3A02.773Z)")      
    col_tab[0].write("Tabela 5-2 [item 02 a 04](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p810.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODEwLnBkZiIsImlhdCI6MTcyMDIwNzA5NSwiZXhwIjoxNzIwODExODk1fQ.el2noOaEib7glfyyRixqSuFuFcIujwDj1D_gH40Jh7M&t=2024-07-05T19%3A18%3A15.565Z)")
    col_tab[0].write("Tabela 5-2 [item 05 a 08](https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p811.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODExLnBkZiIsImlhdCI6MTcyMDIwNzE2OCwiZXhwIjoxNzIwODExOTY4fQ.7oX0qP5zi-3XNSoplu9wSmSeszDuQ2bUWs6TgcJXo6c&t=2024-07-05T19%3A19%3A28.897Z)") 
