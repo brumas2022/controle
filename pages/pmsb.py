@@ -66,7 +66,7 @@ if equipe:
 if ppa_botao:
    #ppa()
    st.header("Under construction") 
-   pass 
+    
 if tabelas:
    
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
