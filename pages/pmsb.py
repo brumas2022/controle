@@ -27,6 +27,7 @@ def ppa():
           resposta = cursor.fetchall()
                  
           df = pd.DataFrame(resposta)
+          df.columns=['Coluna1', 'Coluna2', 'Coluna3', "Coluna4']
         
           st.dataframe(df)
           
@@ -64,8 +65,8 @@ if equipe:
    col[2].write("Ivone")
    col[3].write("Hermes Ávila") 
 if ppa_botao:
-   #ppa()
-   st.header("Under construction") 
+   ppa()
+   #st.header("Under construction") 
     
 if tabelas:
    
