@@ -12,9 +12,26 @@ def plano():
     st.image("pages/plano.PNG")    
     
 def ppa():
-    try: 
-
-    except
+    try:
+          connection = psycopg2.connect(
+               host='aws-0-sa-east-1.pooler.supabase.com',
+               user='postgres.hdhvkseneldllvnlvpgc',
+               password='Hoje#estamos#fortes#como#geleia',
+               database='postgres',
+               port='5432'           
+               
+          )
+          cursor = connection.cursor()
+          comando1 = """SELECT acao_cod, acao_descricao, ano, valor FROM ppa""" 
+          cursor.execute(comando1)
+          resposta = cursor.fetchall()
+                 
+          df = pd.DataFrame(resposta)
+        
+          st.dataframe(df)
+          
+      except Exception as ex:
+          st.write(ex)
     
 
 
@@ -22,6 +39,8 @@ def ppa():
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
 tabelas=st.sidebar.button("Tabelas")
+ppa_botao=st.sidebar.button("PPA")
+
 if lider:
    st.header(":green[Marcos Brumatti]", divider="orange")
    col=st.columns((1,1,1))
@@ -44,7 +63,8 @@ if equipe:
    col[2].write("Letícia Lazzare")
    col[2].write("Ivone")
    col[3].write("Hermes Ávila") 
-
+if ppa_botao:
+    ppa()
 if tabelas:
    
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
