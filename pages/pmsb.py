@@ -27,7 +27,7 @@ def ppa():
           resposta = cursor.fetchall()
                  
           df = pd.DataFrame(resposta)
-          df.columns=['Coluna1', 'Coluna2', 'Coluna3', "Coluna4']
+          df.columns=['Codigo da ação', 'Descrição da ação', 'Ano', 'Valor']
         
           st.dataframe(df)
           
