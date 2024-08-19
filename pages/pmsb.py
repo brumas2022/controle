@@ -129,6 +129,6 @@ if tabelas:
  
 
 
-if lider==False and equipe==False and tabelas==False and ppa==False:            
+if lider==False and equipe==False and tabelas==False:            
    plano()
    
