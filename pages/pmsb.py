@@ -11,7 +11,14 @@ def plano():
     #st.page_link("https://drive.google.com/file/d/1yDofmyFtOFxvmvhrWFx-ql-Odxt5Mdho/view", label="Clique aqui para acessar PMSB")
     st.image("pages/plano.PNG")    
     
+def ppa():
+    try: 
 
+    except
+    
+
+
+    
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
 tabelas=st.sidebar.button("Tabelas")
