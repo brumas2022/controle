@@ -64,7 +64,8 @@ if equipe:
    col[2].write("Ivone")
    col[3].write("Hermes Ávila") 
 if ppa_botao:
-    ppa()
+   # ppa()
+   pass 
 if tabelas:
    
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
