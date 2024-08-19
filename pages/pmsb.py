@@ -30,7 +30,7 @@ def ppa():
         
           st.dataframe(df)
           
-      except Exception as ex:
+    except Exception as ex:
           st.write(ex)
     
 
