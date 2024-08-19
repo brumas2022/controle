@@ -42,7 +42,7 @@ if tabelas:
    
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
    tab1, tab2, tab3, tab4 = st.tabs(["Abastecimento de Água", "Esgotamento Sanitário", "Limpeza pública e Manejo de Resíduos Sólidos", "Drenagem Urbana e Manejo de Águas Pluviais"])
-   with tab1
+   with tab1:
        col_tab=st.columns((1,1,1,1,1))
        col_tab[0].link_button("Tabela 5-2 item 01", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p809.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODA5LnBkZiIsImlhdCI6MTcyMTk5ODAyMSwiZXhwIjoxNzUzNTM0MDIxfQ.KeBfSdiJ2rCWzAJI5HCnqL5UwkiXcngoAynhaUZGfaY&t=2024-07-26T12%3A47%3A01.621Z")      
        col_tab[0].link_button("Tabela 5-2 item 02 a 04", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p810.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODEwLnBkZiIsImlhdCI6MTcyMjAwMTM5OCwiZXhwIjoxNzUzNTM3Mzk4fQ.MKpKAvutpXEJg4oJ58pKyyrh7anPv06atnTbtW0jI_M&t=2024-07-26T13%3A43%3A18.393Z")
@@ -68,32 +68,34 @@ if tabelas:
 
 
 
+   with tab2: 
+   
+       col_tab1=st.columns((1,1,1,1,1)) 
+       col_tab1[0].link_button("Tabela 5-8 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p829.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODI5LnBkZiIsImlhdCI6MTcyMDcyODY3NCwiZXhwIjoxNzIzMzIwNjc0fQ.5ErWVjeMmlD7XyQ57l9F6PUgGx7i9Vai2hwOtYmo-1U&t=2024-07-11T20%3A11%3A15.222Z")
+       col_tab1[0].link_button("Tabela 5-8 item 3 a 5", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p830.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODMwLnBkZiIsImlhdCI6MTcyMDcyODY5OCwiZXhwIjoxNzUyMjY0Njk4fQ.52h6qQRFmZv23FdZydTjQ_d6areZC8wC2szHwpLdagw&t=2024-07-11T20%3A11%3A39.871Z")
+       col_tab1[0].link_button("Tabela 5-8 item 6 a 8", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p831.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODMxLnBkZiIsImlhdCI6MTcyMDcyODcyMiwiZXhwIjoxNzUyMjY0NzIyfQ.Fq5oPM0-zLTdHReiHIm-go0wyYB7vFkfmYto7HtbJyw&t=2024-07-11T20%3A12%3A03.547Z")
+       col_tab1[0].link_button("Tabela 5-8 item 9 a 12", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p832.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODMyLnBkZiIsImlhdCI6MTcyMDcyODc1MSwiZXhwIjoxNzUyMjY0NzUxfQ.XtsEOkuwxi45QHoUjcYqC3xoPoR7gu6CRnfyWdu_tWM&t=2024-07-11T20%3A12%3A32.463Z")
     
-   st.write("5.2.2. Esgotamento Sanitário ...827")
-   col_tab1=st.columns((1,1,1,1,1)) 
-   col_tab1[0].link_button("Tabela 5-8 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p829.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODI5LnBkZiIsImlhdCI6MTcyMDcyODY3NCwiZXhwIjoxNzIzMzIwNjc0fQ.5ErWVjeMmlD7XyQ57l9F6PUgGx7i9Vai2hwOtYmo-1U&t=2024-07-11T20%3A11%3A15.222Z")
-   col_tab1[0].link_button("Tabela 5-8 item 3 a 5", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p830.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODMwLnBkZiIsImlhdCI6MTcyMDcyODY5OCwiZXhwIjoxNzUyMjY0Njk4fQ.52h6qQRFmZv23FdZydTjQ_d6areZC8wC2szHwpLdagw&t=2024-07-11T20%3A11%3A39.871Z")
-   col_tab1[0].link_button("Tabela 5-8 item 6 a 8", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p831.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODMxLnBkZiIsImlhdCI6MTcyMDcyODcyMiwiZXhwIjoxNzUyMjY0NzIyfQ.Fq5oPM0-zLTdHReiHIm-go0wyYB7vFkfmYto7HtbJyw&t=2024-07-11T20%3A12%3A03.547Z")
-   col_tab1[0].link_button("Tabela 5-8 item 9 a 12", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-8/relatorio_p832.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS04L3JlbGF0b3Jpb19wODMyLnBkZiIsImlhdCI6MTcyMDcyODc1MSwiZXhwIjoxNzUyMjY0NzUxfQ.XtsEOkuwxi45QHoUjcYqC3xoPoR7gu6CRnfyWdu_tWM&t=2024-07-11T20%3A12%3A32.463Z")
-    
-   col_tab1[1].link_button("Tabela 5-9 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-9/relatorio_p833.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS05L3JlbGF0b3Jpb19wODMzLnBkZiIsImlhdCI6MTcyMDcyODc3MiwiZXhwIjoxNzUyMjY0NzcyfQ.Cptn-y7vq05yLx8LUbBTL-YoKY4SKEz8hWpBAiVkLMQ&t=2024-07-11T20%3A12%3A53.565Z") 
-   col_tab1[1].link_button("Tabela 5-9 item 3", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-9/relatorio_p834.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS05L3JlbGF0b3Jpb19wODM0LnBkZiIsImlhdCI6MTcyMDcyODc5MSwiZXhwIjoxNzUyMjY0NzkxfQ.nXZ4eveMSw-HEUAF0bqg2ir2Nc20oto7r1sGYdBJ0yM&t=2024-07-11T20%3A13%3A12.222Z") 
+       col_tab1[1].link_button("Tabela 5-9 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-9/relatorio_p833.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS05L3JlbGF0b3Jpb19wODMzLnBkZiIsImlhdCI6MTcyMDcyODc3MiwiZXhwIjoxNzUyMjY0NzcyfQ.Cptn-y7vq05yLx8LUbBTL-YoKY4SKEz8hWpBAiVkLMQ&t=2024-07-11T20%3A12%3A53.565Z") 
+       col_tab1[1].link_button("Tabela 5-9 item 3", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-9/relatorio_p834.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS05L3JlbGF0b3Jpb19wODM0LnBkZiIsImlhdCI6MTcyMDcyODc5MSwiZXhwIjoxNzUyMjY0NzkxfQ.nXZ4eveMSw-HEUAF0bqg2ir2Nc20oto7r1sGYdBJ0yM&t=2024-07-11T20%3A13%3A12.222Z") 
 
-   col_tab1[2].link_button("Tabela 5-10 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-10/relatorio_p835.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMC9yZWxhdG9yaW9fcDgzNS5wZGYiLCJpYXQiOjE3MjA3Mjg4MTcsImV4cCI6MTc1MjI2NDgxN30.MbNlJdPHP_39xqEHpcWJBKUf6CAK9GXrk9qolll8RFc&t=2024-07-11T20%3A13%3A38.233Z")
+       col_tab1[2].link_button("Tabela 5-10 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-10/relatorio_p835.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMC9yZWxhdG9yaW9fcDgzNS5wZGYiLCJpYXQiOjE3MjA3Mjg4MTcsImV4cCI6MTc1MjI2NDgxN30.MbNlJdPHP_39xqEHpcWJBKUf6CAK9GXrk9qolll8RFc&t=2024-07-11T20%3A13%3A38.233Z")
 
-   col_tab1[3].link_button("Tabela 5-11 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p836.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzNi5wZGYiLCJpYXQiOjE3MjA3Mjg4MzIsImV4cCI6MTc1MjI2NDgzMn0._TCKOAgmF8e11zfpo-KjFwQbWexo7cEvMNv2jyYxIoI&t=2024-07-11T20%3A13%3A53.399Z")
-   col_tab1[3].link_button("Tabela 5-11 item 3 e 4", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p837.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzNy5wZGYiLCJpYXQiOjE3MjA3Mjg4NDQsImV4cCI6MTc1MjI2NDg0NH0.WJTHWXw2RFaUipTX9TCZAvFjt09AobT8FvJ-Ia3nLi8&t=2024-07-11T20%3A14%3A05.278Z")
-   col_tab1[3].link_button("Tabela 5-11 item 5 e 6", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p838.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzOC5wZGYiLCJpYXQiOjE3MjA3Mjg4NjQsImV4cCI6MTc1MjI2NDg2NH0.g-eYs45hvogxq9dJXvpR7SCiCcXqZhwtk_7zEjFWkwI&t=2024-07-11T20%3A14%3A25.397Z")
-   col_tab1[3].link_button("Tabela 5-11 item 7", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p839.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzOS5wZGYiLCJpYXQiOjE3MjA3Mjg4NzksImV4cCI6MTc1MjI2NDg3OX0.5_44SoQJslI4iENs32r571jqSmKunNoAvJt5kWsV1zs&t=2024-07-11T20%3A14%3A39.968Z")
+       col_tab1[3].link_button("Tabela 5-11 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p836.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzNi5wZGYiLCJpYXQiOjE3MjA3Mjg4MzIsImV4cCI6MTc1MjI2NDgzMn0._TCKOAgmF8e11zfpo-KjFwQbWexo7cEvMNv2jyYxIoI&t=2024-07-11T20%3A13%3A53.399Z")
+       col_tab1[3].link_button("Tabela 5-11 item 3 e 4", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p837.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzNy5wZGYiLCJpYXQiOjE3MjA3Mjg4NDQsImV4cCI6MTc1MjI2NDg0NH0.WJTHWXw2RFaUipTX9TCZAvFjt09AobT8FvJ-Ia3nLi8&t=2024-07-11T20%3A14%3A05.278Z")
+       col_tab1[3].link_button("Tabela 5-11 item 5 e 6", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p838.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzOC5wZGYiLCJpYXQiOjE3MjA3Mjg4NjQsImV4cCI6MTc1MjI2NDg2NH0.g-eYs45hvogxq9dJXvpR7SCiCcXqZhwtk_7zEjFWkwI&t=2024-07-11T20%3A14%3A25.397Z")
+       col_tab1[3].link_button("Tabela 5-11 item 7", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-11/relatorio_p839.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMS9yZWxhdG9yaW9fcDgzOS5wZGYiLCJpYXQiOjE3MjA3Mjg4NzksImV4cCI6MTc1MjI2NDg3OX0.5_44SoQJslI4iENs32r571jqSmKunNoAvJt5kWsV1zs&t=2024-07-11T20%3A14%3A39.968Z")
 
-   col_tab1[4].link_button("Tabela 5-12 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-12/relatorio_p840.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMi9yZWxhdG9yaW9fcDg0MC5wZGYiLCJpYXQiOjE3MjA3Mjg4OTcsImV4cCI6MTc1MjI2NDg5N30.LVJJCeUiUgVuHeEgwYDFNdbFeXvGi_NhzWNt-Gr8YVk&t=2024-07-11T20%3A14%3A58.665Z")
-   col_tab1[4].link_button("Tabela 5-13 item 1", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-13/relatorio_p841.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMy9yZWxhdG9yaW9fcDg0MS5wZGYiLCJpYXQiOjE3MjA3Mjg5MTQsImV4cCI6MTc1MjI2NDkxNH0.N8dlzCeoBIbjVtSo9nxdHSER-OfxDfhpmnBN7KGvR0g&t=2024-07-11T20%3A15%3A14.895Z") 
+       col_tab1[4].link_button("Tabela 5-12 item 1 e 2", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-12/relatorio_p840.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMi9yZWxhdG9yaW9fcDg0MC5wZGYiLCJpYXQiOjE3MjA3Mjg4OTcsImV4cCI6MTc1MjI2NDg5N30.LVJJCeUiUgVuHeEgwYDFNdbFeXvGi_NhzWNt-Gr8YVk&t=2024-07-11T20%3A14%3A58.665Z")
+       col_tab1[4].link_button("Tabela 5-13 item 1", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-13/relatorio_p841.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0xMy9yZWxhdG9yaW9fcDg0MS5wZGYiLCJpYXQiOjE3MjA3Mjg5MTQsImV4cCI6MTc1MjI2NDkxNH0.N8dlzCeoBIbjVtSo9nxdHSER-OfxDfhpmnBN7KGvR0g&t=2024-07-11T20%3A15%3A14.895Z") 
 
     
 
-   st.write("5.2.3. Limpeza pública e Manejo de Resíduos Sólidos..842")
+   with tab3:
+       st.write("5.2.3. Limpeza pública e Manejo de Resíduos Sólidos..842")
 
-   st.write("5.2.4. Drenagem Urbana e Manejo de Águas Pluviais ..899")
+   with tab4:
+       st.write("5.2.4. Drenagem Urbana e Manejo de Águas Pluviais ..899")
  
 
 
