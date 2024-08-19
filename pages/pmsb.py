@@ -41,7 +41,7 @@ if equipe:
 if tabelas:
    
    st.markdown("5. PROGRAMAS, PROJETOS E AÇÕES...801")
-   tab1, tab2, tab3, tab4 = st.tabs(["**Abastecimento de Água", "**Esgotamento Sanitário", "Resíduos Sólidos", "Drenagem Urbana"])
+   tab1, tab2, tab3, tab4 = st.tabs(["Abastecimento de Água", "Esgotamento Sanitário", "Resíduos Sólidos", "Drenagem Urbana"])
    with tab1:
        col_tab=st.columns((1,1,1,1,1))
        col_tab[0].link_button("Tabela 5-2 item 01", url="https://hdhvkseneldllvnlvpgc.supabase.co/storage/v1/object/sign/PMSB-tabelas/Tabela5-2/relatorio_p809.pdf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJQTVNCLXRhYmVsYXMvVGFiZWxhNS0yL3JlbGF0b3Jpb19wODA5LnBkZiIsImlhdCI6MTcyMTk5ODAyMSwiZXhwIjoxNzUzNTM0MDIxfQ.KeBfSdiJ2rCWzAJI5HCnqL5UwkiXcngoAynhaUZGfaY&t=2024-07-26T12%3A47%3A01.621Z")      
