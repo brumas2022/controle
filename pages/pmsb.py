@@ -11,7 +11,7 @@ def plano():
     #st.page_link("https://drive.google.com/file/d/1yDofmyFtOFxvmvhrWFx-ql-Odxt5Mdho/view", label="Clique aqui para acessar PMSB")
     st.image("pages/plano.PNG")    
     
-def ppa():
+def ppa1():
     try:
           connection = psycopg2.connect(
                host='aws-0-sa-east-1.pooler.supabase.com',
@@ -35,7 +35,9 @@ def ppa():
           st.write(ex)
     
 
-
+def ppa():
+    df_ppa=pd.read_excel("PlanilhaPPA.xlsx", sheet_name=1)
+    st.dataframe(df_ppa)
     
 lider=st.sidebar.button("Lider")
 equipe=st.sidebar.button("Equipe")
@@ -65,8 +67,8 @@ if equipe:
    col[2].write("Ivone")
    col[3].write("Hermes Ávila") 
 if ppa_botao:
-   #ppa()
-   st.header("Under construction") 
+   ppa()
+   #st.header("Under construction") 
     
 if tabelas:
    
