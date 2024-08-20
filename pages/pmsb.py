@@ -2,6 +2,7 @@ import streamlit as st
 import tabula
 import psycopg2
 import pandas as pd
+import openpyxl
 #from tabula.io import read_pdf
 st.set_page_config("PMSB", layout="wide")
 def plano():
